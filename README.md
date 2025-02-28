@@ -1,20 +1,20 @@
-1️) Project Title: Customer Conversion Analysis for Online Shopping Using Clickstream Data.
+1) Project Title: Customer Conversion Analysis for Online Shopping Using Clickstream Data.
 
-2️) Domain: E-commerce and Retail Analytics.
+2) Domain: E-commerce and Retail Analytics.
 
-3️) Business Goal: Predict customer conversion, estimate revenue, and segment users for marketing.
+3) Business Goal: Predict customer conversion, estimate revenue, and segment users for marketing.
 
-4️) Data Used: Clickstream dataset from UCI ML Repository.
+4) Data Used: Clickstream dataset from UCI ML Repository.
 
-5️) Data Preprocessing: Handled missing values, encoded categorical variables, and normalized features.
+5) Data Preprocessing: Handled missing values, encoded categorical variables, and normalized features.
 
-6️) EDA: Performed session analysis, correlation heatmaps, and time-based behavior study.
+6) EDA: Performed session analysis, correlation heatmaps, and time-based behavior study.
 
-7️) Feature Engineering: Extracted session length, browsing patterns, and behavioral metrics.
+7) Feature Engineering: Extracted session length, browsing patterns, and behavioral metrics.
 
-8️) Balancing Techniques: Applied SMOTE, undersampling, and class weight adjustments.
+8) Balancing Techniques: Applied SMOTE, undersampling, and class weight adjustments.
 
-9️) Supervised Learning Models: Used Logistic Regression, Decision Trees, XGBoost, and Neural Networks.
+9) Supervised Learning Models: Used Logistic Regression, Decision Trees, XGBoost, and Neural Networks.
 
 10) Unsupervised Learning Models: Implemented K-Means, DBSCAN, and Hierarchical Clustering.
     
