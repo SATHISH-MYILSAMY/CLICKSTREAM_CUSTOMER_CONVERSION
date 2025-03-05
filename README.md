@@ -5,6 +5,7 @@
 4) Feature Scaling: Standardized numerical data using MinMaxScaler or StandardScaler.
 
 🔹 Exploratory Data Analysis (EDA)
+
 5) Data Visualization: Used bar charts, histograms, and pair plots for insights.
 6) Session Analysis: Examined session duration, page views, and bounce rates.
 7) Correlation Analysis: Identified relationships between variables via heatmaps.
