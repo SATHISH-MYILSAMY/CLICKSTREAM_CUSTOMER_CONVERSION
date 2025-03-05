@@ -1,39 +1,31 @@
-1) Project Title: Customer Conversion Analysis for Online Shopping Using Clickstream Data.
+🔹 Data Preprocessing & Cleaning
+1) Dataset Used: Train.csv for model training and Test.csv for validation.
+2) Handling Missing Values: Used mean/median for numerical features and mode for categorical.
+3) Feature Encoding: Applied One-Hot Encoding and Label Encoding for categorical variables.
+4) Feature Scaling: Standardized numerical data using MinMaxScaler or StandardScaler.
 
-2) Domain: E-commerce and Retail Analytics.
+🔹 Exploratory Data Analysis (EDA)
+5) Data Visualization: Used bar charts, histograms, and pair plots for insights.
+6) Session Analysis: Examined session duration, page views, and bounce rates.
+7) Correlation Analysis: Identified relationships between variables via heatmaps.
+8) Time-based Analysis: Extracted hourly, daily, and seasonal trends in user behavior.
 
-3) Business Goal: Predict customer conversion, estimate revenue, and segment users for marketing.
+🔹 Feature Engineering
+9) Session Metrics: Created session length, click counts, and time spent per category.
+10) Clickstream Patterns: Tracked user browsing paths to uncover behavioral trends.
+11) Behavioral Metrics: Included bounce rates, exit rates, and revisit patterns.
 
-4) Data Used: Clickstream dataset from UCI ML Repository.
+🔹 Balancing Techniques for Classification
+12) Imbalance Check: Analyzed class distribution (Converted vs. Not Converted).
+13) Oversampling: Used SMOTE to generate synthetic samples for minority class.
+14) Undersampling: Randomly removed majority class samples for balance.
+15) Class Weight Adjustment: Adjusted weights during model training.
 
-5) Data Preprocessing: Handled missing values, encoded categorical variables, and normalized features.
+🔹 Model Building
+16) Classification Models: Implemented Logistic Regression, Decision Trees, Random Forest, XGBoost, and Neural Networks.
+17) Regression Models: Used Linear Regression, Ridge, Lasso, Gradient Boosting Regressor for revenue prediction.
+18) Clustering Models: Performed K-Means, DBSCAN, and Hierarchical Clustering for segmentation.
+19) Pipeline Automation: Used Scikit-learn Pipelines for data preprocessing, scaling, model training, and evaluation.
 
-6) EDA: Performed session analysis, correlation heatmaps, and time-based behavior study.
-
-7) Feature Engineering: Extracted session length, browsing patterns, and behavioral metrics.
-
-8) Balancing Techniques: Applied SMOTE, undersampling, and class weight adjustments.
-
-9) Supervised Learning Models: Used Logistic Regression, Decision Trees, XGBoost, and Neural Networks.
-
-10) Unsupervised Learning Models: Implemented K-Means, DBSCAN, and Hierarchical Clustering.
-    
-11) Regression Models: Used Linear Regression, Ridge, Lasso, and Gradient Boosting Regressors.
-
-12) Pipeline Development: Automated data preprocessing, scaling, model training, and tuning.
-
-13) Model Evaluation: Assessed performance using Accuracy, Precision, Recall, RMSE, and Silhouette Score.
-
-14) Streamlit App Development: Built an interactive UI for real-time predictions.
-
-15) App Features: Conversion prediction, revenue estimation, and customer segmentation.
-
-16) Visualization: Integrated bar charts, histograms, and clustering visuals.
-
-17) Optimization: Tuned XGBoost, adjusted hyperparameters, and improved recall for conversion prediction.
-
-18) Deployment: Designed a Streamlit-based ML application for business use.
-
-19) Project Deliverables: Source code, documentation, presentation, and app.
-
-20) Business Impact: Increased conversions, optimized marketing, and improved revenue forecasting.
+🔹 Model Evaluation & Deployment
+20) Streamlit App: Developed an interactive web app for real-time predictions, revenue estimation, and clustering visualizations with CSV upload and dynamic charts.
